@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{ 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(173deg, #2EA4EA 0%, #F1F0F0 100%);
+
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+   width: 100%;
+   height: 5vh;
+   background: black;
+   color: blanchedalmond;
+    box-shadow: 2px 3px 5px 5px gray;
+
+}
+
+
+.ul-navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 0.5rem;
+}
+
+
+
+
